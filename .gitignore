@@ -1,0 +1,47 @@
+# Terraform State & Cache
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfcache
+
+# Crash Reporting Files
+crash.log
+
+# Sensitive Data (NEVER commit these)
+*.tfvars
+*.auto.tfvars
+*.secrets*
+*.credentials*
+
+# Local Editor Files
+.terraformrc
+*.tf.json
+*.tf.json.d/*
+.vscode/
+.idea/
+
+# macOS Files
+.DS_Store
+
+# Terraform Cloud/Enterprise
+.terraform/
+*.tfplan
+*.tfplan.json
+
+# IDE-specific files
+.project
+.classpath
+.settings/
+
+# Compiled executable files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Log files
+*.log
+*.out
+
+# Temporary files
+*~
